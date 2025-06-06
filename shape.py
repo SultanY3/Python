@@ -102,8 +102,16 @@
 #             print(" ", end=" ")
 #     print()
 
-n=5
-for i in range(n):
-    for j in range(n):
-        if i==n or j==0 or j==n-1
+# n=4
+# for i in range(0,n):
+#     for j in range(0,n-i):
+#            print(" ",end="")
+#     for k in range(0,i+1):
+#         if(i==n-1):
+#            print("* ",end="")  
+#         elif k==0 or k==i:
+#             print("* ",end="")
+#         else:
+#              print(" ",end=" ")                 
+#     print() 
 
