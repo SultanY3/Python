@@ -89,7 +89,7 @@ while True:
                 loguname=input("Enter username:")
                 logpass=input("Enter password:")
                 if loguname == usernamei and logpass == passwordi:
-                    print("Login successfull!")
+                    print("Login successfull")
                     while True:
                         print("1.Display all books\n2.Search book\n3.Exit")
                         ss=int(input("Select an action:"))
@@ -116,7 +116,9 @@ while True:
                 else:
                     print("Incorrect username or password")
     else:
-        print("Enter valid option!!")
+        print("Enter valid option!")
+
+#the program has a few hiccups but works just fine
 
 
 
