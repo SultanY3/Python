@@ -6,7 +6,7 @@ act=''
 sel=''
 ss=''
 while True:
-    print("1.Admin \n2.User")
+    print("1.Admin \n2.User \n3.Exit")
     opt=int(input("Select user type:"))
     if opt == 1:
         uname=input("Enter the username: ")
@@ -83,7 +83,7 @@ while True:
                     print("This number is already registered to an account!")
                 else:
                     User.append([namei,agei,addressi,phonei,usernamei,passwordi])
-                    print("Account successfully created!")  
+                    print("Account successfully created")  
 
             elif sel == 2:
                 loguname=input("Enter username:")
@@ -107,7 +107,7 @@ while True:
                                     book_found = True
                             
                             if not book_found:
-                                print("Book not available")
+                                print("Book not available!")
                         
                         elif ss == 3:
                             print("Exiting...")
@@ -115,10 +115,13 @@ while True:
 
                 else:
                     print("Incorrect username or password")
+    elif opt == 3:
+        print("Exiting...")
+        break
     else:
-        print("Enter valid option!")
+        print("Enter valid option!!")
 
-#the program has a few hiccups but works just fine
+
 
 
 
