@@ -59,7 +59,12 @@ while True:
 
                 elif act == '4':
                     for j in Library:
-                        print(j)
+                        print("..............")
+                        print("Book id:",j[0])
+                        print("Book name:",j[1])
+                        print("Book author:",j[2])
+                        print("Book qty:",j[3])
+                        print("..............")
                     
                 elif act == '5':
                     print("Exiting...")
@@ -76,14 +81,23 @@ while True:
                 phonei=input("Phone: ")
                 usernamei=input("Username: ")
                 passwordi=input("Password: ")
-
-                if usernamei in User:
-                    print("Username already taken!")
-                elif phonei in User:
-                    print("This number is already registered to an account!")
+                
+                if User:
+                    for i in User:
+                        if i[4] == usernamei:
+                            print("Username already taken!")
+                            break
+                        elif i[3] == phonei:
+                            print("This number is already registered to an account!")
+                            break
+                        else:
+                            User.append([namei,agei,addressi,phonei,usernamei,passwordi])
+                            print("Account successfully created")  
+                        
                 else:
                     User.append([namei,agei,addressi,phonei,usernamei,passwordi])
                     print("Account successfully created")  
+                    
 
             elif sel == 2:
                 loguname=input("Enter username:")
@@ -99,15 +113,17 @@ while True:
                         
                         elif ss == 2:
                             search = input("Enter name of book:")
-                            book_found = False
+                            # book_found = False
                             
                             for i in Library:
                                 if i[1] == search:
-                                    print(i)
-                                    book_found = True
+                                    print(i) 
+                                    # book_found = True
+                                else:
+                                    print("Book not available!")
                             
-                            if not book_found:
-                                print("Book not available!")
+                            # if not book_found:
+                            #     print("Book not available!")
                         
                         elif ss == 3:
                             print("Exiting...")

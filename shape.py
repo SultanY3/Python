@@ -154,5 +154,24 @@
 #         num = num + 1
 #     print()
 
+fib=[]
+n=int(input("Enter the limit: "))
+if n<=0:
+    print("Number must be geater than zero")
+else:
+    first=0
+    second=1
+    fib.append(first,second)
+    for i in range(2,n+1):
+        first=second
+        second=first
+
+
+
+
+    
+    
+
+
 
 

@@ -120,14 +120,14 @@
 
 # print("Common elements are:",com)
 
-n=int(input("Enter the number: "))
-l=len(str(n))
-sum=0
-for i in range(0,l):                                 
-    d=n%10
-    sum=sum+d
-    n=n//10    
-print("Sum is:",sum)
+# n=int(input("Enter the number: "))
+# l=len(str(n))
+# sum=0
+# for i in range(0,l):                                 
+#     d=n%10
+#     sum=sum+d
+#     n=n//10    
+# print("Sum is:",sum)
 #..................................................................
 #WHILE LOOP
 
