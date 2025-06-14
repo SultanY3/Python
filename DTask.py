@@ -54,6 +54,45 @@
 # add("shampoo")
 # print(list1)
 
-str="Python programming is fun"
-for i in str:
-    if i in ['a','e','i','o','u','A','E','I','O','U']:
+# text = 'Python Programming is fun!'
+# vowels = []
+# for i in text:
+#     if i.lower() in 'aeiou':
+#         vowels.append(i)
+# print(vowels)
+
+# li=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20]
+# odd = [num for num in li if num % 2 != 0]
+# print(odd)
+
+# week = ("Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday")
+ 
+# print(week[-1]) 
+
+# print(week[1:4])  
+
+# print(week.index("Wednesday"))  
+
+student = ["Momi", "Rashi", "Sulu", "Max", "Ronnie", "Pessi"]
+setlist= set(student)
+print(setlist)
+
+set1 = {1, 2, 3, 4, 5, 6}
+set2 = {4, 5, 6, 7, 8, 9}
+
+union_set = set1 | set2
+intersection_set = set1 & set2
+difference_set = set1 - set2
+
+print(union_set)
+print(intersection_set)
+print(difference_set)
+
+subset_check = {4, 5}.issubset(set1)
+print(subset_check)
+
+
+
+
+
+        
