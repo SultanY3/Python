@@ -106,11 +106,11 @@
 # if(a==b and a==c):
 #     print("All numbers are equal")
 # elif(a>b and a>c):
-#     print(a,"is the greatest number")
+#     print(a,"is the greatest number ")
 # elif(b>a and b>c):
-#     print(b,"is the greatest number")
+#     print(b,"is the greatest number ")
 # else:
-#     print(c,"is the greatest number")
+#     print(c,"is the greatest number ")
 # ...............................................................
 # yr=int(input("Enter the year: "))
 # if(yr%4==0):
@@ -125,7 +125,7 @@
 #         l2.append(i)
 # print(l2)   
 # ..............................................................
-# l1=[1,2,3,4,5,6,7,8,9,10]
+# l1=[1,2,3,4,5,6,7,8,9,10,11,12]
 # l2=[]
 # l3=[]
 # n2=0

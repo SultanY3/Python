@@ -73,23 +73,23 @@
 
 # print(week.index("Wednesday"))  
 
-student = ["Momi", "Rashi", "Sulu", "Max", "Ronnie", "Pessi"]
-setlist= set(student)
-print(setlist)
+# student = ["Momi", "Rashi", "Sulu", "Max", "Ronnie", "Pessi"]
+# setlist= set(student)
+# print(setlist)
 
-set1 = {1, 2, 3, 4, 5, 6}
-set2 = {4, 5, 6, 7, 8, 9}
+# set1 = {1, 2, 3, 4, 5, 6}
+# set2 = {4, 5, 6, 7, 8, 9}
 
-union_set = set1 | set2
-intersection_set = set1 & set2
-difference_set = set1 - set2
+# union_set = set1 | set2
+# intersection_set = set1 & set2
+# difference_set = set1 - set2
 
-print(union_set)
-print(intersection_set)
-print(difference_set)
+# print(union_set)
+# print(intersection_set)
+# print(difference_set)
 
-subset_check = {4, 5}.issubset(set1)
-print(subset_check)
+# subset_check = {4, 5}.issubset(set1)
+# print(subset_check)
 
 
 
