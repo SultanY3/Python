@@ -283,8 +283,7 @@
 #1 . Write a recursive function to print numbers from n to 1.
 
 # def print_num(n):
-#     if n != 0:
-        
+#     if n != 0:   
 #         print(n)
 #         print_num(n - 1)
 # n1=int(input("Enter a number:"))
@@ -304,19 +303,19 @@
 
 # def sum_dig(n):
 #     if n!=0:
-#         return n % 10 + sum_num(n // 10)
+#         return n % 10 + sum_dig(n // 10)
 #     else:
 #         return 0
 # n1 = int(input("Enter a number: "))
-# print("Sum:", sum_num(n1))
+# print("Sum:", sum_dig(n1))
 
 #4. Write a recursive function to reverse a string.
 
 # def rev(s):
 #     if len(s) == 0:
 #         return s
-#     return rev(s[1:]) + s[0]
-
+#     else:
+#         return rev(s[1:]) + s[0]
 # txt = input("Enter a string: ")
 # print("Reversed string:", rev(txt))
 
