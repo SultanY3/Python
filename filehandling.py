@@ -27,12 +27,12 @@
 
 # file=open('Newfile.txt','w')  #overrides the file contents and inputs new text
 # file.write('This is the write command')
-# file.write('It allows us to write in a particular file')
+# file.write('\nIt allows us to write in a particular file')
 # file.close()
 
 # file=open('Newfile.txt','a')  #appends the file contents and inputs new text (existing content will not be removed)
-# file.write('Check check one two')
-# file.write('testing in progress')
+# file.write('\nCheck check one two')
+# file.write('\ntesting in progress')
 # file.close()
 
 
