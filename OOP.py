@@ -80,3 +80,90 @@
 
 # #this will give an error since the attr age has been deleted
 # print(s.age)
+
+
+#Homework
+
+#1 . Create a class Student with attributes name, roll_number, and marks.Add a method to display student details.
+
+# class Student:
+#     marks=95
+#     roll_num=101
+#     name="Joseph"
+
+#     def display(self):
+#         print("Name:",self.name,"Roll no:",self.roll_num,"Marks:",self.marks)
+# st=Student()
+# st.display()
+
+#2 . Create a class Rectangle with attributes length and width.Add a method to calculate and display the area.
+
+# class Rectangle:
+#     def __init__(self, length, width):
+#         self.length = length
+#         self.width = width
+
+#     def area(self):
+#         area = self.length * self.width
+#         print("Area of the rectangle is:", area)
+
+# rect = Rectangle(10, 5)
+# rect.area()
+
+#3 . Create a class Car with attributes brand, model, and year.Add a method to display full details of the car.
+
+# class car:
+#     def __init__(self,brand,modelname,year):
+#         self.brand=brand
+#         self.modelname=modelname
+#         self.year=year
+#     def display(self):
+#         print("Brand:",self.brand,"Model:",self.modelname,"Year:",self.year)
+# c1=car("Toyota","Gr86",2019)
+# c1.display()
+
+#4 . Create a class Person with attributes name and age.Add a method to check if the person is eligible to vote (age ≥ 18).
+
+# class Person:
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+
+#     def check(self):
+#         if self.age >= 18:
+#             print(self.name,"is eligible to vote.")
+#         else:
+#             print(self.name,"is not eligible to vote.")
+
+# person1 = Person("Afsal", 17)
+# person1.check()
+
+#5 . Create a class BankAccount with attributes account_holder and balance.Add methods to deposit, withdraw, and check balance.
+
+# class BankAccount:
+#     def __init__(self, account, balance=0): 
+#         self.account= account
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         if amount > 0:
+#             self.balance = self.balance + amount
+#             print("Deposited:",amount)
+#         else:
+#             print("Deposit amount must be positive.")
+
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance = self.balance - amount
+#             print("Withdrew:",amount)
+#         else:
+#             print("Insufficient balance.")
+
+#     def check_balance(self):
+#         print("Accounts current balance:",self.balance)
+
+
+# account = BankAccount("John", 1000)
+# account.withdraw(300)
+# account.deposit(420)
+# account.check_balance()
