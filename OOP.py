@@ -167,3 +167,5 @@
 # account.withdraw(300)
 # account.deposit(420)
 # account.check_balance()
+
+#Q.Same question but use while true(dd monday)
