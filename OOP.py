@@ -169,3 +169,54 @@
 # account.check_balance()
 
 #Q.Same question but use while true(dd monday)
+
+
+# class BankAccount:
+#     def __init__(self, account, balance=0): 
+#         self.account = account
+#         self.balance = balance
+
+#     def deposit(self, amount):
+#         if amount > 0:
+#             self.balance += amount
+#             print("Deposited:", amount)
+#         else:
+#             print("Deposit amount must be positive.")
+
+#     def withdraw(self, amount):
+#         if amount <= self.balance:
+#             self.balance -= amount
+#             print("Withdrew:", amount)
+#         else:
+#             print("Insufficient balance.")
+
+#     def check_balance(self):
+#         print("Account's current balance:", self.balance)
+
+
+# account = BankAccount("John", 1000)
+
+# while True:
+#     print("\nChoose an action:")
+#     print("1. Deposit")
+#     print("2. Withdraw")
+#     print("3. Check Balance")
+#     print("4. Exit")
+
+#     choice = input("Enter choice (1-4): ")
+
+#     if choice == '1':
+#         amt = float(input("Enter amount to deposit: "))
+#         account.deposit(amt)
+#     elif choice == '2':
+#         amt = float(input("Enter amount to withdraw: "))
+#         account.withdraw(amt)
+#     elif choice == '3':
+#         account.check_balance()
+#     elif choice == '4':
+#         print("Goodbye!")
+#         break
+#     else:
+#         print("Invalid choice. Please try again.")
+
+
