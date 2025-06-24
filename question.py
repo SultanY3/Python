@@ -31,16 +31,28 @@
 #     print("Enter string of valid length")
 
 # Fisrt missing positive number
+
 # 1<=num.length<=105
-#-231<=nums[i]<=231.1
+# -231<=nums[i]<=231.1
 
+# nums = [2,3,1]
+# i = 1
+# while True:
+#     if i not in nums:
+#         print(i)
+#         break
+#     i+=1
 
-# nums=[1,3,4,5,6]
-# for i in range(1,2^31):
-#     b=i
-# for j in nums:
-#     if j != b:
-#         print(b)
-        
-
+# nums = [1, 3, 4, 5, 6]
+# i = 1
+# while True:
+#     found = False
+#     for j in nums:
+#         if j == i:
+#             found = True
+#             break
+#     if not found:
+#         print(i)
+#         break
+#     i+=1
 
