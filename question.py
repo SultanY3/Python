@@ -35,15 +35,7 @@
 # 1<=num.length<=105
 # -231<=nums[i]<=231.1
 
-# nums = [2,3,1]
-# i = 1
-# while True:
-#     if i not in nums:
-#         print(i)
-#         break
-#     i+=1
-
-# nums = [1, 3, 4, 5, 6]
+# nums = [3,1,4,2,7,8]
 # i = 1
 # while True:
 #     found = False
@@ -51,7 +43,7 @@
 #         if j == i:
 #             found = True
 #             break
-#     if not found:
+#     if found == False:
 #         print(i)
 #         break
 #     i+=1
